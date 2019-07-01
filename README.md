@@ -6,7 +6,7 @@ We maintain styles, classes, bibliographies, and shared resources not available 
 
 Do not copy styles, classes, bibliographies, or shared resources into a git repository.
 Use **Git submodules** within your paper repositories, instead.
-Conceptually, this means that Git will maintain a copy files within a subdirectory of your own repository (we suggest `include/<name>`).
+Conceptually, this means that Git will maintain a files from another repository within a subdirectory of your own repository (we suggest `include/<name>`).
 
 Git submodules are always **locked to a specific commit.**
 In other words, a submodule **won’t automatically update itself,** even when pulling in the latest changes of your paper repository.
