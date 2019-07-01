@@ -85,3 +85,9 @@ For licensing reasons, we set the visibility of the following repositories to pr
 - https://github.com/krr-up/latex-class-eptcs
 - https://github.com/krr-up/latex-style-aaai
 - https://github.com/krr-up/latex-class-tlp
+
+[.latexmkrc]: .latexmkrc
+[krr-up]: https://github.com/krr-up
+[latexmk]: https://mg.readthedocs.io/latexmk.html
+[github-blog-git-submodules]: https://github.blog/2016-02-01-working-with-submodules/
+[pro-git-book-git-submodules]: https://git-scm.com/book/en/v2/Git-Tools-Submodules
