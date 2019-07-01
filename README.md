@@ -59,8 +59,8 @@ $ cd include/bibliography
 $ git fetch
 $ git reset --hard origin/master
 $ cd ../..
-$ git add include/bibliography
-$ git commit -m "Update bibliography"
+$ git add include/<name>
+$ git commit -m "Update <name>"
 $ git push
 ```
 
