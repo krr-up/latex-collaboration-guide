@@ -10,7 +10,7 @@ Conceptually, this means that Git will maintain a files from another repository 
 
 Git submodules are always **locked to a specific commit.**
 In other words, a submodule **won’t automatically update itself,** even when pulling in the latest changes of your paper repository.
-You’ll have to **manually update the bibliography** whenever necessary.
+You’ll have to **manually update the submodule** whenever necessary.
 
 On another note, **never edit the content of the submodule directly,** that is, within `include/<name>`.
 If you need modify the files in a submodule, clone it to a location outside of your paper repository and contribute from there.
@@ -55,7 +55,7 @@ The submodule will now stay at the latest state of the `master` branch **at the 
 You can **bring the latest changes to your paper repository** as follows:
 
 ```sh
-$ cd include/bibliography
+$ cd include/<name>
 $ git fetch
 $ git reset --hard origin/master
 $ cd ../..
@@ -72,7 +72,7 @@ $ git submodule update --init --recursive
 - You **clone** your paper repository from scratch.
 - Someone else **updates the submodule** to to a newer version.
 - Files in `include/<name>` are **missing** or LaTeX complains about them.
-- `git status` tells you `modified: include/bibliography (new commits)` and you didn’t expect this.
+- `git status` tells you `modified: include/<name> (new commits)` and you didn’t expect this.
 - Someone else adds a **new submodule** to your paper repository.
 
 ## Available Submodules
