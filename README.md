@@ -5,15 +5,16 @@ We maintain styles, classes, bibliographies, and shared resources not available 
 ## Collaborative writing in LaTeX
 
 To minimize conflicts when writing, we partition a document into several files,
-usually one per section, and possibly further files for figures, tables, programs and alike,
+usually
+one header file, simply called `paper.tex` (though other variants like `main.tex` are also in use),
+that imports
+one file per section, along with possibly further files for figures, tables, programs and alike,
 often gathered in corresponding folders (we suggest `include/<name>`).
-To this end, we provide a rough [paper template] for LaTeX that is also available for setting up a new repository.
+To this end, we provide a rough [paper template] for LaTeX that is also available when setting up a new repository.
 
-We usually name the header file simply `paper.tex`, though other variants like `main.tex`, are also in use.
-
-We view a LaTeX document as source code and try to format in view of readability.
+We view a LaTeX document as source code and try to format it for readability.
 For instance, we start a new line with each sentence and
-sometimes break a sentence into several lines to reflect its logical parts.
+sometimes break sentences into several lines to reflect their logical contents.
 
 [paper template]: https://github.com/krr-up/latex-paper-template
 
@@ -25,12 +26,12 @@ The set of [LaTeX macros] used in the Potassco book is available (but not in gen
 
 ### Affiliation
 
-Our university guideline foresees that our First- and Lastname is followed by **University of Potsdam**.
-Usually, we do not provide further details (after all there's Google).
+Our university guideline foresees that our First- and Lastname are followed by **University of Potsdam**.
+Unless required, we usually do not provide further details (after all there's Google).
 
 ### Presentations
 
-We have created a [slide template] for presentation prepared with LaTeX' [beamer] style;
+We have created a [slide template] for presentations prepared with LaTeX' [beamer] style;
 this is also available when setting up a new repository.
 
 Moreover, it comes with a (non-public) submodule containing [logos].
