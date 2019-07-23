@@ -2,6 +2,47 @@
 
 We maintain styles, classes, bibliographies, and shared resources not available via the TeX distribution in repositories in our github organization.
 
+## Collaborative writing in LaTeX
+
+To minimize conflicts when writing, we partition a document into various files,
+usually one per section, and possibly further files for figures, tables, programs and alike,
+often in corresponding folders (we suggest `include/<name>`).
+To this end, we provide a rough [paper template] for LaTeX.
+
+We usually name the header file simply `paper.tex`, though other variants like `main.tex`, are also in use.
+
+We view a LaTeX document as source code and try to format in view of readability.
+For instance, we start a new line with each sentence and
+sometimes break a sentence into several lines to reflect its logical parts.
+
+[paper template]: https://github.com/krr-up/latex-paper-template
+
+### Macros
+
+The set of [LaTeX macros] used in the Potassco book is available as a bunch of submodules.
+
+[LaTeX macros]: https://github.com/krr-up/asp-macros
+
+### Affiliation
+
+Our university guideline foresees that our First- and Lastname is followed by **University of Potsdam**.
+Usually, we do not provide further details (after all there's Google).
+
+### Logos
+
+[Logos] are available in a submodule.
+
+[logos]: https://github.com/krr-up/logos
+
+## Version Control
+
+For collaborative writing we follow the [feature branch workflow]
+and use submodules for including styles, classes, bibliographies, or shared resources,
+as described below.
+
+[feature branch workflow]: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+
+
 ## Using Submodules
 
 Do not copy styles, classes, bibliographies, or shared resources into a git repository.
