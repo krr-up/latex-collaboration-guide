@@ -28,10 +28,15 @@ The set of [LaTeX macros] used in the Potassco book is available (but not in gen
 Our university guideline foresees that our First- and Lastname is followed by **University of Potsdam**.
 Usually, we do not provide further details (after all there's Google).
 
-### Logos
+### Presentations
 
-[Logos] are available in a submodule.
+We have created a [slide template] for presentation prepared with LaTeX' [beamer] style;
+this is also available when setting up a new repository.
 
+Moreover, it comes with a (non-public) submodule containing [logos].
+
+[beamer]: https://github.com/josephwright/beamer
+[slide template]: https://github.com/krr-up/latex-slides-template
 [logos]: https://github.com/krr-up/logos
 
 ## Version Control
