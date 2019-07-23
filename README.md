@@ -4,10 +4,10 @@ We maintain styles, classes, bibliographies, and shared resources not available 
 
 ## Collaborative writing in LaTeX
 
-To minimize conflicts when writing, we partition a document into various files,
+To minimize conflicts when writing, we partition a document into several files,
 usually one per section, and possibly further files for figures, tables, programs and alike,
-often in corresponding folders (we suggest `include/<name>`).
-To this end, we provide a rough [paper template] for LaTeX.
+often gathered in corresponding folders (we suggest `include/<name>`).
+To this end, we provide a rough [paper template] for LaTeX that is also available for setting up a new repository.
 
 We usually name the header file simply `paper.tex`, though other variants like `main.tex`, are also in use.
 
@@ -19,7 +19,7 @@ sometimes break a sentence into several lines to reflect its logical parts.
 
 ### Macros
 
-The set of [LaTeX macros] used in the Potassco book is available as a bunch of submodules.
+The set of [LaTeX macros] used in the Potassco book is available (but not in general use).
 
 [LaTeX macros]: https://github.com/krr-up/asp-macros
 
