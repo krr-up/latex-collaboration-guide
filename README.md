@@ -45,8 +45,10 @@ For collaborative writing we follow the [feature branch workflow]
 and use submodules for including styles, classes, bibliographies, or shared resources,
 as described below.
 
-[feature branch workflow]: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+Best read the [Pro Git book], at least the first chapters.
 
+[feature branch workflow]: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+[Pro Git book]: https://git-scm.com/book/
 
 ## Using Submodules
 
