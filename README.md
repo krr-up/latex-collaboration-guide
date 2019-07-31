@@ -2,6 +2,55 @@
 
 We maintain styles, classes, bibliographies, and shared resources not available via the TeX distribution in repositories in our github organization.
 
+## Collaborative writing in LaTeX
+
+To minimize conflicts when writing, we partition a document into several files,
+usually
+one header file, simply called `paper.tex` (though other variants like `main.tex` are also in use),
+that imports
+one file per section, along with possibly further files for figures, tables, programs and alike,
+often gathered in corresponding folders (we suggest `include/<name>`).
+To this end, we provide a rough [paper template] for LaTeX that is also available when setting up a new repository.
+
+We view a LaTeX document as source code and try to format it for readability.
+For instance, we start a new line with each sentence and
+sometimes break sentences into several lines to reflect their logical contents.
+
+[paper template]: https://github.com/krr-up/latex-paper-template
+
+### Macros
+
+The set of [LaTeX macros] used in the Potassco book is available (but not in general use).
+
+[LaTeX macros]: https://github.com/krr-up/asp-macros
+
+### Affiliation
+
+Our university guideline foresees that our First- and Lastname are followed by **University of Potsdam**.
+Unless required, we usually do not provide further details (after all there's Google).
+
+### Presentations
+
+We have created a [slide template] for presentations prepared with LaTeX' [beamer] style;
+this is also available when setting up a new repository.
+
+Moreover, it comes with a (non-public) submodule containing [logos].
+
+[beamer]: https://github.com/josephwright/beamer
+[slide template]: https://github.com/krr-up/latex-slides-template
+[logos]: https://github.com/krr-up/logos
+
+## Version Control
+
+For collaborative writing we follow the [feature branch workflow]
+and use submodules for including styles, classes, bibliographies, or shared resources,
+as described below.
+
+Best read the [Pro Git book], at least the first chapters.
+
+[feature branch workflow]: https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+[Pro Git book]: https://git-scm.com/book/
+
 ## Using Submodules
 
 Do not copy styles, classes, bibliographies, or shared resources into a git repository.
