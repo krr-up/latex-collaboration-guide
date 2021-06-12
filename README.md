@@ -78,7 +78,7 @@ Add the repository as a submodule to your paper repository as follows:
 ```sh
 $ git submodule add ../<name> include/<name>
 ```
-(Replace `../<name>` with `https://github.com/krr-up/<name>` if your repository is hosted outside of the [`krr-up` organization][krr-up].)
+If your repository is hosted outside of the [`krr-up` organization][krr-up], replace `../<name>` with `https://github.com/krr-up/<name>` (to use https access) or with `git@github.com:krr-up/<name>.git` (to use ssh access). Using ssh avoids being request the password.
 
 Next, commit and push the changes to make the submodule available to your coworkers.
 After your coworkers have pulled the change, they will need to execute the following command:
