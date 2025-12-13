@@ -16,6 +16,8 @@ We view a LaTeX document as source code and try to format it for readability.
 For instance, we start a new line with each sentence and
 sometimes break sentences into several lines to reflect their logical contents.
 
+To ease diffing files, we avoid trailing whitespaces at the end of lines and terminate files with a newline.
+
 [paper template]: https://github.com/krr-up/latex-paper-template
 
 ### Macros
